@@ -96,8 +96,8 @@
     }
     
     .desc-elem span:nth-of-type(2){
-        font-size: 20px;
-        line-height: 1em;
+        font-size: 25px;
+        line-height: 2rem;
         letter-spacing: 1px;
     }
 

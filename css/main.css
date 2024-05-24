@@ -354,6 +354,7 @@ header{
 	background-image: url("../images/46.jpg");
 	background-position: top;
 }
+
 .customs-photo:nth-of-type(4) {
 	grid-column: 1;
 	grid-row: 3 / 6;
@@ -465,3 +466,7 @@ footer .contacts-tel{
     pointer-events: all;
 }
 
+i{
+	font-family:'Courier New', Courier, monospace;
+	font-weight: 600;
+}
