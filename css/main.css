@@ -53,7 +53,14 @@ header{
 	position: absolute;
 	z-index: 2;
 	backdrop-filter: blur(15px);
+	-webkit-backdrop-filter: blur(15px);
 }
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+	.logo-title {
+		backdrop-filter: blur(15px);
+	}
+  }
 
 .title-desc{
 	font-size: 30px;
