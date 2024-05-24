@@ -444,8 +444,8 @@ footer .contacts-tel{
     height: 100vh;
     margin: 0;
     border-radius: 0;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: contain !important;
+    background-repeat: no-repeat; 
     background-position: center;
 }
 
