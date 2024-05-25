@@ -170,7 +170,9 @@
 		</footer>
 		<div class="overlay"></div>
 		
-		<script type="module">
+		<script type="module" defer>
+			const photos = document.querySelectorAll('.photo');
+			const overlay = document.querySelector('.overlay');
 			let rect;
 			let active = false;
 
@@ -198,10 +200,9 @@
 				}
 			});*/
 
-			document.querySelectorAll('.photo').forEach(photo => {
+			photos.forEach(photo => {
 				photo.addEventListener('click', () => {
 					active = true;
-					const overlay = document.querySelector('.overlay');
 
 					if (!photo.classList.contains('fullscreen')) {
 						rect = photo.getBoundingClientRect();
@@ -238,7 +239,7 @@
 					});
 			});
 
-			document.querySelector('.overlay').addEventListener('click', () => {
+			/*document.querySelector('.overlay').addEventListener('click', () => {
 				const photo = document.querySelector('.fullscreen');
 				if (photo) {
 					const overlay = document.querySelector('.overlay');
@@ -250,7 +251,7 @@
 					photo.style.width = '';
 					photo.style.height = '';
 				}
-			});
+			});*/
 		</script>           
   	</body>
 </html>
