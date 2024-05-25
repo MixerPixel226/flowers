@@ -3,6 +3,7 @@
   <head>
 	<meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+	
     <link href="./css/main.css" rel="stylesheet" />
 	<link href="./css/adaptive.css" rel="stylesheet" />
 
@@ -169,7 +170,7 @@
 			</div>
 		</footer>
 		<div class="overlay"></div>
-		
+
 		<script type="module" defer>
 			const photos = document.querySelectorAll('.photo');
 			const overlay = document.querySelector('.overlay');
@@ -238,6 +239,26 @@
 					}
 					});
 			});
+
+			/*document.querySelectorAll('.flowers-photo').forEach(photo => {
+    photo.addEventListener('click', () => {
+        const overlay = document.querySelector('.overlay');
+
+        if (!photo.classList.contains('fullscreen')) {
+            const rect = photo.getBoundingClientRect();
+            photo.style.setProperty('--initial-top', `${rect.top}px`);
+            photo.style.setProperty('--initial-left', `${rect.left}px`);
+            photo.style.setProperty('--initial-width', `${rect.width}px`);
+            photo.style.setProperty('--initial-height', `${rect.height}px`);
+
+            photo.classList.add('fullscreen');
+            overlay.classList.add('active');
+        } else {
+            photo.classList.remove('fullscreen');
+            overlay.classList.remove('active');
+        }
+    });
+});*/
 
 			/*document.querySelectorAll('.flowers-photo').forEach(photo => {
     photo.addEventListener('click', () => {
