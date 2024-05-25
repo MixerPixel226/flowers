@@ -143,6 +143,7 @@ header{
 
 .photo{
 	will-change: top, left, width, height;
+	transition: width 0.3s, height 0.3s, top 0.3s, left 0.3s;
 }
 
 .flowers-photos{
@@ -160,7 +161,6 @@ header{
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	transition: all 0.3s;
 }
 
 .flowers-photo:nth-of-type(1) {
@@ -236,7 +236,6 @@ header{
 	background-position: cover;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	transition: all 0.3s;
 }
 
 .compositions-photo:nth-of-type(1) {
@@ -290,7 +289,6 @@ header{
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	transition: all 0.3s;
 }
 
 .dirtflowers-photo:nth-of-type(1) {
@@ -339,7 +337,6 @@ header{
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	transition: all 0.3s;
 }
 
 .customs-photo:nth-of-type(1) {
