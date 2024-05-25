@@ -141,11 +141,6 @@ header{
 	margin-top: 50px;
 }
 
-.photo{
-	will-change: top, left, width, height;
-	transition: width 0.3s, height 0.3s, top 0.3s, left 0.3s;
-}
-
 .flowers-photos{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -434,6 +429,11 @@ footer .contacts-tel{
 .gis{
 	height: 150px;
 	width: 150px;
+}
+
+.photo{
+	will-change: top, left, width, height;
+	transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;
 }
 
 .fullscreen {

@@ -239,6 +239,48 @@
 					});
 			});
 
+			/*document.querySelectorAll('.flowers-photo').forEach(photo => {
+    photo.addEventListener('click', () => {
+        const overlay = document.querySelector('.overlay');
+
+        if (!photo.classList.contains('fullscreen')) {
+            rect = photo.getBoundingClientRect();
+            photo.style.position = 'fixed';
+            photo.style.top = `${rect.top}px`;
+            photo.style.left = `${rect.left}px`;
+            photo.style.width = `${rect.width}px`;
+            photo.style.height = `${rect.height}px`;
+			photo.style.transformOrigin = 'top left';
+            photo.style.transform = `scale(1)`;
+
+            setTimeout(() => {
+                photo.classList.add('fullscreen');
+                overlay.classList.add('active');
+				photo.style.top = '0';
+				photo.style.left = '0';
+				const scaleX = window.innerWidth / rect.width;
+                const scaleY = window.innerHeight / rect.height;
+                const translateX = (window.innerWidth / 2) - (rect.left + rect.width / 2);
+                const translateY = (window.innerHeight / 2) - (rect.top + rect.height / 2);
+                photo.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scaleX}, ${scaleY})`;
+            }, 10);
+        } else {
+            photo.style.transform = `translate(0, 0) scale(1)`;
+
+            setTimeout(() => {
+                photo.classList.remove('fullscreen');
+                overlay.classList.remove('active');
+                photo.style.position = '';
+                photo.style.top = '';
+                photo.style.left = '';
+                photo.style.width = '';
+                photo.style.height = '';
+                photo.style.transform = '';
+            }, 300);
+        }
+    });
+});*/
+
 			/*document.querySelector('.overlay').addEventListener('click', () => {
 				const photo = document.querySelector('.fullscreen');
 				if (photo) {
