@@ -9,6 +9,12 @@ body{
     margin: 0;
 	background: rgb(31,31,31);
 	background: linear-gradient(0deg, rgba(31,31,31,1) 0%, rgba(76,74,74,1) 100%);
+	box-sizing: border-box;
+}
+
+figure{
+	margin: 0;
+	padding: 0;
 }
 
 header{
@@ -60,7 +66,7 @@ header{
 	.logo-title {
 		backdrop-filter: blur(15px);
 	}
-  }
+}
 
 .title-desc{
 	font-size: 30px;
@@ -112,6 +118,14 @@ header{
 	height: 50px;
 }
 
+.inst_mobile{
+	display: none;
+}
+
+.contacts-mobile{
+	display: none;
+}
+
 .contacts-tel{
 	padding: 10px 30px;
 	background: white;
@@ -133,6 +147,7 @@ header{
 }
 
 .flowers, .compositions, .dirtflowers, .customs{
+	position: relative;
 	display: flex;
 	width: 100%;
 	height: 400px;
@@ -151,46 +166,40 @@ header{
 	height: 100%;
 }
 
-.flowers-photo{
+.flowers-photo, .compositions-photo, .customs-photo, .dirtflowers-photo{
 	border-radius: 20px;
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	overflow: hidden; 
 }
 
 .flowers-photo:nth-of-type(1) {
-	grid-column: 1 / 3;
-	grid-row: 1 / 4;
+	grid-column: 1 / 3; grid-row: 1 / 4;
 	background-image: url("../images/11.jpg");
 }
 .flowers-photo:nth-of-type(2) {
-	grid-column: 3;
-	grid-row: 1;
+	grid-column: 3; grid-row: 1;
 	background-image: url("../images/12.jpg");
 }
 .flowers-photo:nth-of-type(3) {
-	grid-column: 4;
-	grid-row: 1;
+	grid-column: 4; grid-row: 1;
 	background-image: url("../images/13.jpg");
 }
 .flowers-photo:nth-of-type(4) {
-	grid-column: 3;
-	grid-row: 2;
+	grid-column: 3; grid-row: 2;
 	background-image: url("../images/14.jpg");
 }
 .flowers-photo:nth-of-type(5) {
-	grid-column: 4;
-	grid-row: 2;
+	grid-column: 4; grid-row: 2;
 	background-image: url("../images/15.jpg");
 }
 .flowers-photo:nth-of-type(6) {
-	grid-column: 3;
-	grid-row: 3;
+	grid-column: 3; grid-row: 3;
 	background-image: url("../images/16.jpg");
 }
 .flowers-photo:nth-of-type(7) {
-	grid-column: 4;
-	grid-row: 3;
+	grid-column: 4; grid-row: 3;
 	background-image: url("../images/17.jpg");
 }
 
@@ -431,27 +440,22 @@ footer .contacts-tel{
 }
 
 .photo{
-	/*will-change: top, left, width, height;
-	transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;*/
-	transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;
-    --initial-top: 0;
-    --initial-left: 0;
-    --initial-width: 100%;
-    --initial-height: 100%;
+	will-change: top, left, width, height;
+	transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;
+	position: relative;
 }
 
 .fullscreen {
-    position: fixed;
     z-index: 1000;
     margin: 0;
+	top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     border-radius: 0;
     background-size: contain !important;
     background-repeat: no-repeat; 
     background-position: center;
-	top: var(--initial-top);
-    left: var(--initial-left);
-    width: var(--initial-width);
-    height: var(--initial-height);
 }
 
 .overlay {
