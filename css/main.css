@@ -356,7 +356,7 @@ header{
 .customs-photo:nth-of-type(3) {
 	grid-column: 3;
 	grid-row: 1 / 3;
-	background-image: url("../images/46.jpg");
+	background-image: url("../images/46.jpeg");
 }
 
 .customs-photo:nth-of-type(4) {
@@ -440,42 +440,15 @@ footer .contacts-tel{
 }
 
 .photo{
-	will-change: top, left, width, height;
-	transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;
 	position: relative;
-}
-
-.fullscreen {
-    z-index: 1000;
-    margin: 0;
-	top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    border-radius: 0;
-    background-size: contain !important;
-    background-repeat: no-repeat; 
-    background-position: center;
-}
-
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0);
-    transition: background-color 0.3s ease;
-    z-index: 999;
-    pointer-events: none;
-}
-
-.overlay.active {
-    background-color: rgba(0, 0, 0, 0.9);
-    pointer-events: all;
 }
 
 i{
 	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-weight: 500;
+}
+
+.pswp img {
+    width: 100%;
+    object-fit: contain;
 }

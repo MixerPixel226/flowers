@@ -193,6 +193,18 @@
         height: 60px;
         width: 60px;
     }
+
+    .pay{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    
+    .pay img{
+        border-radius: 10px;
+        width: 150px;
+        height: 150px;
+    }
 }
 
 @media (min-width: 1445px) and (max-width: 1716px){
