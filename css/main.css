@@ -403,8 +403,8 @@ footer .contacts-icons svg{
 
 footer .contacts-tel{
 	padding: 10px 30px;
-	color: white;
-	background-color: transparent;
+	color: rgba(31,31,31,1);
+	background-color: white;
 	display: flex;
 	align-items: center;
 	font-size: 25px;
@@ -430,13 +430,13 @@ footer .contacts-tel{
 .footer-address a{
 	border-radius: 10px;
 	overflow: hidden;
-	height: 150px;
-	width: 150px;
+	height: 110px;
+	width: 110px;
 }
 
 .gis{
-	height: 150px;
-	width: 150px;
+	height: 110px;
+	width: 110px;
 }
 
 .photo{
