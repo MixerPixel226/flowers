@@ -308,7 +308,9 @@
 		</footer>
 
 		<div class = "pay">
-			<img src = "images/qr.jpg">
+			<a href = "https://qr.nspk.ru/BS1A004UNOCHHE8K8C782FLRKS3P02AV?type=01&bank=100000000284&crc=8D96" target="_blank">
+				<img src = "images/qr.jpg">
+			</a>
 		</div>
 
 
@@ -419,16 +421,6 @@
 	  $('#customs').find('figure').each(function(){
         var $link = $(this).find('a');
         var $img = $(this).find('img');
-		/*if($img.hasClass('def')){
-			var item = {
-                    src: $link.attr('href'),
-                    w: '1280',
-                    h: '961',
-                    title: $link.data('caption')
-            };
-            cust.push(item);
-		}
-		else{*/
 			var tempImg = new Image();
 			tempImg.src = $img.attr('src');
 
