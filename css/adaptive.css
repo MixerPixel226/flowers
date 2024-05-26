@@ -143,7 +143,6 @@
         width: 100%;
         flex-direction: column;
         align-items: center;
-        justify-content: start;
         margin-top: 30px;
     }
 
@@ -171,12 +170,13 @@
     .footer-address{
         justify-content: center;
         align-items: center;
-        margin-top: 30px;
+        margin-top: 20px;
         font-size: 20px;
         gap: 20px;
         width: 100%;
         height: fit-content;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 20px;
     }
 
     .footer-address div{
@@ -198,7 +198,7 @@
     .pay{
         display: flex;
         justify-content: center;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         align-items: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 25px;
