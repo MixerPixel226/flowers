@@ -452,3 +452,7 @@ i{
     width: 100%;
     object-fit: contain;
 }
+
+.pay{
+	display: none;
+}
