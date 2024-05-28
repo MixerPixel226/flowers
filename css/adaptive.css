@@ -47,14 +47,15 @@
     }
 
     .desc-2{
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .desc-3{
         text-align: center;
-        font-size: 17px;
+        font-size: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-shadow: none;
+        margin-top: 10px;
     }
 
     header .contacts{
@@ -73,10 +74,15 @@
         margin-top: 0;
     }
 
+    .contacts-icons svg{
+        width: 45px;
+        height: 45px;
+    }
+
     .contacts-mobile .contacts-tel{
         padding: 7px 15px;
 	    background: white;
-	    font-size: 20px;
+	    font-size: 16px;
 	    border-radius: 20px;
 	    gap: 10px;
 	    cursor: pointer;
@@ -127,12 +133,12 @@
     }
     
     .desc-elem span:nth-of-type(1){
-        font-size: 40px;
+        font-size: 35px;
         letter-spacing: 10px;
     }
     
     .desc-elem span:nth-of-type(2){
-        font-size: 17px;
+        font-size: 15px;
         line-height: 1.5rem;
         letter-spacing: 1px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -150,12 +156,17 @@
         height: fit-content;
     }
 
+    footer .contacts-icons svg{
+        width: 45px;
+        height: 45px;
+    }
+
     footer .contacts-tel{
-        padding: 7px 15px;
+        padding: 9px 15px;
 	    background: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
-	    font-size: 20px;
-	    border-radius: 15px;
+	    font-size: 18px;
+	    border-radius: 20px;
 	    gap: 10px;
 	    cursor: pointer;
 	    filter: opacity(1);
@@ -164,7 +175,7 @@
     }
 
     footer .contacts-desc{
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .footer-address{
@@ -201,7 +212,7 @@
         margin-bottom: 20px;
         align-items: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 25px;
+        font-size: 20px;
         gap: 20px;
     }
     
@@ -224,6 +235,10 @@
         transform: scaleX(-1);
         width: 93px;
         height: 30px;
+    }
+
+    .pay-pc{
+        display: none;
     }
 }
 
@@ -254,12 +269,12 @@
     }
     
     .desc-2{
-        font-size: 25px;
+        font-size: 22px;
     }
     
     .desc-3{
         text-align: left;
-        font-size: 20px;
+        font-size: 13px;
     }
 
     .contacts-desc{
@@ -267,26 +282,26 @@
     }
     
     .contacts-icons{
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
         gap: 20px;
     }
     
     .contacts-icons svg{
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
     }
 
     .contacts-tel{
-        padding: 10px 30px;
-        font-size: 23px;
+        padding: 7px 20px;
+        font-size: 15px;
         border-radius: 30px;
         gap: 10px;
     }
     
     .contacts-tel svg{
-        width: 26px;
-        height: 26px;
+        width: 23px;
+        height: 23px;
     }
 }
 
@@ -307,12 +322,12 @@
     }
     
     .desc-elem span:nth-of-type(1){
-        font-size: 50px;
+        font-size: 42px;
         letter-spacing: 8px;
     }
     
     .desc-elem span:nth-of-type(2){
-        font-size: 25px;
+        font-size: 18px;
         line-height: 2em;
         letter-spacing: 2px;
     }
@@ -326,30 +341,30 @@
     }
     
     footer .contacts-desc{
-        font-size: 50px;
+        font-size: 44px;
         letter-spacing: 2px;
     }
     
     footer .contacts-icons{
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
         gap: 20px;
     }
     
     footer .contacts-icons svg{
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
     }
     
     footer .contacts-tel{
         padding: 10px 30px;
-        font-size: 25px;
+        font-size: 18px;
         border-radius: 30px;
         gap: 10px;
     }
     
     .footer-address{
-        font-size: 50px;
+        font-size: 23px;
         display: flex;
         gap: 20px;
     }
@@ -364,6 +379,17 @@
     .gis{
         height: 80px;
         width: 80px;
+    }
+
+    .pay-pc{
+        font-size: 25px;
+        gap: 20px;
+    }
+    
+    .pay-pc img{
+        border-radius: 10px;
+        height: 110px;
+        width: 110px;
     }
 }
 
@@ -401,7 +427,7 @@
     
     .desc-3{
         text-align: left;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .contacts-desc{
@@ -421,7 +447,7 @@
 
     .contacts-tel{
         padding: 10px 30px;
-        font-size: 18px;
+        font-size: 14px;
         border-radius: 30px;
         gap: 10px;
     }
@@ -447,12 +473,12 @@
     }
     
     .desc-elem span:nth-of-type(1){
-        font-size: 40px;
+        font-size: 38px;
         letter-spacing: 8px;
     }
     
     .desc-elem span:nth-of-type(2){
-        font-size: 22px;
+        font-size: 16px;
         line-height: 2em;
         letter-spacing: 2px;
     }
@@ -466,7 +492,7 @@
     }
     
     footer .contacts-desc{
-        font-size: 45px;
+        font-size: 35px;
         letter-spacing: 2px;
     }
     
@@ -482,14 +508,14 @@
     }
     
     footer .contacts-tel{
-        padding: 10px 30px;
-        font-size: 25px;
+        padding: 7px 20px;
+        font-size: 18px;
         border-radius: 30px;
         gap: 10px;
     }
     
     .footer-address{
-        font-size: 40px;
+        font-size: 23px;
         display: flex;
         gap: 20px;
     }
@@ -509,6 +535,17 @@
     .flowers-photos, .compositions-photos, .dirtflowers-photos, .customs-photos{
         column-gap: 8px;
         row-gap: 4px;
+    }
+
+    .pay-pc{
+        font-size: 23px;
+        gap: 20px;
+    }
+    
+    .pay-pc img{
+        border-radius: 10px;
+        height: 110px;
+        width: 110px;
     }
 }
 
@@ -541,12 +578,12 @@
     }
     
     .desc-2{
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .desc-3{
         text-align: left;
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .contacts-desc{
@@ -554,8 +591,8 @@
     }
     
     .contacts-icons{
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         gap: 20px;
     }
     
@@ -565,8 +602,8 @@
     }
 
     .contacts-tel{
-        padding: 7px 20px;
-        font-size: 15px;
+        padding: 5px 15px;
+        font-size: 12px;
         border-radius: 30px;
         gap: 10px;
     }
@@ -592,12 +629,12 @@
     }
     
     .desc-elem span:nth-of-type(1){
-        font-size: 30px;
+        font-size: 25px;
         letter-spacing: 8px;
     }
     
     .desc-elem span:nth-of-type(2){
-        font-size: 18px;
+        font-size: 14px;
         line-height: 2em;
         letter-spacing: 2px;
     }
@@ -607,11 +644,11 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 250px;
+        height: 200px;
     }
     
     footer .contacts-desc{
-        font-size: 35px;
+        font-size: 27px;
         letter-spacing: 2px;
     }
     
@@ -627,14 +664,14 @@
     }
     
     footer .contacts-tel{
-        padding: 10px 30px;
-        font-size: 20px;
+        padding: 5px 15px;
+        font-size: 15px;
         border-radius: 30px;
         gap: 10px;
     }
     
     .footer-address{
-        font-size: 35px;
+        font-size: 17px;
         display: flex;
         gap: 20px;
     }
@@ -654,6 +691,17 @@
     .flowers-photos, .compositions-photos, .dirtflowers-photos, .customs-photos{
         column-gap: 8px;
         row-gap: 4px;
+    }
+
+    .pay-pc{
+        font-size: 18px;
+        gap: 20px;
+    }
+    
+    .pay-pc img{
+        border-radius: 10px;
+        height: 90px;
+        width: 90px;
     }
 }
 

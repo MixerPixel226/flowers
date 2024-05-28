@@ -12,6 +12,11 @@ body{
 	box-sizing: border-box;
 }
 
+H1{
+	margin: 0;
+	padding: 0;
+}
+
 figure{
 	margin: 0;
 	padding: 0;
@@ -81,16 +86,18 @@ header{
 	align-items: center;
 	text-align: center;
 	letter-spacing: 2px;
+	gap: 10px;
 	text-shadow: 1px 1px 5px black;
 }
 
 .desc-2{
-	font-size: 30px;
+	font-size: 27px;
 }
 
 .desc-3{
 	text-align: left;
-	font-size: 23px;
+	font-size: 16px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .contacts{
@@ -132,18 +139,18 @@ header{
 	color:rgba(31,31,31,1);
 	display: flex;
 	align-items: center;
-	font-size: 25px;
+	font-size: 20px;
 	border-radius: 30px;
 	gap: 10px;
 	cursor: pointer;
 	filter: opacity(0.8);
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-decoration: none;
 }
 
 .contacts-tel svg{
-	width: 30px;
-	height: 30px;
+	width: 27px;
+	height: 27px;
 }
 
 .flowers, .compositions, .dirtflowers, .customs{
@@ -211,15 +218,15 @@ header{
 }
 
 .desc-elem span:nth-of-type(1){
-	font-size: 60px;
+	font-size: 50px;
 	text-align: center;
 	width: 100%;
 	letter-spacing: 10px;
 }
 
 .desc-elem span:nth-of-type(2){
-	font-size: 30px;
-	font-family: font, 'Arial';
+	font-size: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-align: left;
 	line-height: 2em;
 	letter-spacing: 2px;
@@ -384,7 +391,7 @@ footer{
 }
 
 footer .contacts-desc{
-	font-size: 60px;
+	font-size: 50px;
 	letter-spacing: 2px;
 }
 
@@ -407,36 +414,33 @@ footer .contacts-tel{
 	background-color: white;
 	display: flex;
 	align-items: center;
-	font-size: 25px;
+	font-size: 20px;
 	border-radius: 30px;
 	gap: 10px;
 	cursor: pointer;
 	filter: opacity(0.8);
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-decoration: none;
 }
 
 .footer-address{
-	font-size: 60px;
-	display: flex;
-	gap: 20px;
-}
-
-.footer-address{
+	font-size:30px;
 	display: flex;
 	align-items: center;
+	gap: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footer-address a{
 	border-radius: 10px;
 	overflow: hidden;
-	height: 110px;
-	width: 110px;
+	height: 100px;
+	width: 100px;
 }
 
 .gis{
-	height: 110px;
-	width: 110px;
+	height: 100px;
+	width: 100px;
 }
 
 .photo{
@@ -455,4 +459,34 @@ i{
 
 .pay{
 	display: none;
+}
+
+.pay-pc{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 30px;
+	gap: 20px;
+}
+
+.pay-pc img{
+	border-radius: 10px;
+	width: 150px;
+	height: 150px;
+}
+
+.pay-pc div{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.pay-pc svg{
+	-moz-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	transform: scaleX(-1);
+	width: 93px;
+	height: 30px;
 }
